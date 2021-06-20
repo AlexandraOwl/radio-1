@@ -15,6 +15,10 @@ public class Radio {
         this.maxRadioStation = 10;
     }
 
+    /**
+     * Flexible constructor
+     * @param maxRadioStation
+     */
     public Radio(int maxRadioStation) {
         this.maxRadioStation = maxRadioStation;
     }
